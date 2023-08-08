@@ -21,7 +21,7 @@ The Product Listing App is a web application that allows users to browse and vie
 ## Filtering and Sorting
 
 ### Categories and products are fetched from an external API using Axios.
-### The Sort component provides a dropdown for selecting the sorting criteria and order.
+### The Sort component provides a dropdown for selecting the sorting criteria and order, as first should be select criteria.
 ### The ItemList component uses the selected criteria and order to dynamically sort and display products.
 
 ## Load More
