@@ -1,0 +1,9 @@
+.logoLarge {
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .logoLarge {
+        display: none;
+    }
+}
