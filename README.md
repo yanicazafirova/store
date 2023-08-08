@@ -1,4 +1,5 @@
 # Product Listing App
+
 ## Overview
 The Product Listing App is a web application that allows users to browse and view a list of products. It provides features such as filtering products by category, sorting products based on criteria, and dynamically loading more products as the user scrolls.
 
@@ -17,12 +18,14 @@ The Product Listing App is a web application that allows users to browse and vie
 5.	Responsive Design: The app is responsive and works well on various screen sizes and devices.
 
 ## Implementation
-Filtering and Sorting
+## Filtering and Sorting
+
 ### Categories and products are fetched from an external API using Axios.
 ### The Sort component provides a dropdown for selecting the sorting criteria and order.
 ### The ItemList component uses the selected criteria and order to dynamically sort and display products.
 
-Load More
+## Load More
+
 ### The ItemList component maintains a state for the number of visible products.
 ### When the "Load More" button is clicked, the number of visible products is increased.
 
