@@ -3,11 +3,11 @@
 The Product Listing App is a web application that allows users to browse and view a list of products. It provides features such as filtering products by category, sorting products based on criteria, and dynamically loading more products as the user scrolls.
 
 ## Technologies Used
-•	React: The frontend of the application is built using React, a popular JavaScript library for building user interfaces.
-•	React Router: Used for handling routing and navigation within the app.
-•	Material-UI: Used to create a consistent and visually appealing user interface with pre-designed components.
-•	Axios: Used for making HTTP requests to fetch product data from an external API.
-•	ES6+ JavaScript: Modern JavaScript features and syntax were used throughout the project.
+### React: The frontend of the application is built using React, a popular JavaScript library for building user interfaces.
+### React Router: Used for handling routing and navigation within the app.
+### Material-UI: Used to create a consistent and visually appealing user interface with pre-designed components.
+### Axios: Used for making HTTP requests to fetch product data from an external API.
+### ES6+ JavaScript: Modern JavaScript features and syntax were used throughout the project.
 
 ## Features
 1.	Product Listing: Display a grid of products, each showing relevant information about the product.
@@ -18,17 +18,17 @@ The Product Listing App is a web application that allows users to browse and vie
 
 ## Implementation
 Filtering and Sorting
-•	Categories and products are fetched from an external API using Axios.
-•	The Sort component provides a dropdown for selecting the sorting criteria and order.
-•	The ItemList component uses the selected criteria and order to dynamically sort and display products.
+### Categories and products are fetched from an external API using Axios.
+### The Sort component provides a dropdown for selecting the sorting criteria and order.
+### The ItemList component uses the selected criteria and order to dynamically sort and display products.
 
 Load More
-•	The ItemList component maintains a state for the number of visible products.
-•	When the "Load More" button is clicked, the number of visible products is increased.
+### The ItemList component maintains a state for the number of visible products.
+### When the "Load More" button is clicked, the number of visible products is increased.
 
 ## Challenges
-•	Implementing dynamic sorting and filtering required careful management of state and data flow.
-•	Achieving smooth infinite scrolling while fetching additional products presented a challenge in terms of performance optimization.
+### Implementing dynamic sorting and filtering required careful management of state and data flow.
+### Achieving smooth infinite scrolling while fetching additional products presented a challenge in terms of performance optimization.
 
 # Getting Started with Create React App
 
