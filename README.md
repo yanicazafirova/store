@@ -5,8 +5,7 @@ The Product Listing App is a web application that allows users to browse and vie
 
 ## Technologies Used
 ### React: The frontend of the application is built using React, a popular JavaScript library for building user interfaces.
-### React Router: Used for handling routing and navigation within the app.
-### Material-UI: Used to create a consistent and visually appealing user interface with pre-designed components.
+### React-Bootstrap
 ### Axios: Used for making HTTP requests to fetch product data from an external API.
 ### ES6+ JavaScript: Modern JavaScript features and syntax were used throughout the project.
 
